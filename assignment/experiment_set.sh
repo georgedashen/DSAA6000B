@@ -1,0 +1,17 @@
+CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 8 --n_layer 5 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 16 --n_layer 5 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 32 --n_layer 5 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 8 --n_layer 4 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 16 --n_layer 4 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 32 --n_layer 4 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 8 --n_layer 3 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 16 --n_layer 3 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 32 --n_layer 3 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 8 --n_layer 2 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 16 --n_layer 2 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 32 --n_layer 2 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 48 --n_layer 2 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 8 --n_layer 1 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 16 --n_layer 1 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 32 --n_layer 1 --epoch 750 &&
+	CUDA_VISIBLE_DEVICES=7 python main.py --hid_dim 48 --n_layer 1 --epoch 750
