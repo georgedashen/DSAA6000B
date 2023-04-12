@@ -5,6 +5,8 @@ Most part of codes are borrowed from [Tang, Jianheng, et al. "Rethinking graph n
 
 The GCN models are directly constructed using `GCNConv` Module of pytorch version. Detail implementation can be checked at Thomas Kipf, [Graph Convolutional Networks](http://tkipf.github.io/graph-convolutional-networks/) (2016)
 
+GCN model definitions and some useful functions for processing data is included in `utils.py` and `dataset.py`, respectively.
+
 ## Requirements
 * pytorch
 * networkx
@@ -30,3 +32,5 @@ For investigating different k and t, run `sh experiment_set2.sh` to reproduce th
 
 ## Results
 `AUC` and `average_training_time_per_epoch` are recorded for each section and results can be seen in metrics.png and time.png, respectively.
+
+One may want to reproduce the figures by using the R script `plot.R`.
