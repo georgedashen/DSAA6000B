@@ -16,10 +16,13 @@ T-finance downloaded from [google drive](https://drive.google.com/drive/folders/
 
 ## Exploration 1
 `python main.py --hid_dim 16 --n_layer 5 --epoch 750`
+
 `--hid_dim` is the hidden_dimension in convolutional layers when layer>1, and `--n_layer` is the number of convolutional layers.
 
 ## Exploration 2
 `python evaluate_knn.py --k 3 --t 0.1 --epoch 750`
+
 `--k` is the number of nearest neighbors for each node, and `--t` is the minimum threshold for cosine similarity between nodes to consider connected.
 
-
+## Results
+`AUC` and `average_training_time_per_epoch` are recorded for each section and results can be seen in metrics.png and time.png, respectively.
