@@ -19,10 +19,14 @@ T-finance downloaded from [google drive](https://drive.google.com/drive/folders/
 
 `--hid_dim` is the hidden_dimension in convolutional layers when layer>1, and `--n_layer` is the number of convolutional layers.
 
+For investigating different combinations of hidden dimension and convolutional layers, run `sh experiment_set.sh` to reproduce the results.
+
 ## Exploration 2
 `python evaluate_knn.py --k 3 --t 0.1 --epoch 750`
 
 `--k` is the number of nearest neighbors for each node, and `--t` is the minimum threshold for cosine similarity between nodes to consider connected.
+
+For investigating different k and t, run `sh experiment_set2.sh` to reproduce the results.
 
 ## Results
 `AUC` and `average_training_time_per_epoch` are recorded for each section and results can be seen in metrics.png and time.png, respectively.
