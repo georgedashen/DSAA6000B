@@ -8,8 +8,15 @@ The GCN models are directly constructed using `GCNConv` Module of pytorch versio
 GCN model definitions and some useful functions for processing data is included in `utils.py` and `dataset.py`, respectively.
 
 ## Requirements
-* pytorch
-* networkx
+One can directly run `pip install -r requirements.txt` to install all required packages.
+* dgl==1.0.1
+* networkx==2.6.3
+* numpy==1.21.6
+* pandas==1.3.5
+* scikit-learn==1.0.2
+* scipy==1.7.3
+* torch==1.10.1+cu111
+* torch-geometric==2.2.0
 * CUDA environment: A GPU with 24G memory
 
 ## Data
